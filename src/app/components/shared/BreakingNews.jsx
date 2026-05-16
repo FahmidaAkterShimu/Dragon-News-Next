@@ -46,7 +46,7 @@ const news = [
 
 const BreakingNews = () => {
     return (
-        <div className='max-w-285 mx-auto flex bg-[#F3F3F3] p-4'>
+        <div className='w-full max-w-285 mx-auto flex bg-[#F3F3F3] p-4'>
             <button className='btn bg-[#D72050] text-lg font-medium text-white px-6 py-5'>Latest</button>
             <Marquee pauseOnHover={true} speed={100}>
                 {news.map(n => (
